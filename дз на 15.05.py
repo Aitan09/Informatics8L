@@ -22,17 +22,14 @@ def count_H_occurrences(value):
     count = str(value).count('H')
     return count
 
-
 expression = [
     ("105", 8),
     ("5F", 35),
     ("1011", 3),
-    ("BA", 15)
-]
+    ("BA", 15)]
 
 
 result = calculate_expression_value(expression)
-
 
 count_H = count_H_occurrences(result)
 
